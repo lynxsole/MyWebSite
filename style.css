@@ -1,0 +1,135 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,500;1,600&family=Oswald&family=Roboto&family=Vina+Sans&display=swap');
+
+
+* {
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Vina Sans', cursive;
+    font-weight: 600;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    list-style: none;
+    position: relative;
+}
+
+nav > *{
+    top: 0;
+    height: 50px;
+    width: 100%;
+    background-color: #36393e;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+.navContent, .userInteraction{
+    justify-content: space-around;
+    align-self: center;
+    display: flex;
+}
+
+.navBtn{
+    padding: 10px 10px 10px 10px;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    position: relative;
+    font-size: 1.5rem;
+    font-weight: 100;
+    color: white;
+}
+
+.navBtn:hover{
+    padding: 10px 10px 10px 10px;
+    background-color: #424549;
+    position: relative;
+}
+
+.userInteraction > *{
+    justify-content: end;
+    position: relative;
+    display: flex;
+    padding: 10px 10px 10px 10px;
+    font-size: 1.5rem;
+    color: white;
+}
+
+.searchBtn, .favBtn, .userBtn{
+    margin: 0.5rem;
+}
+
+.searchBtn:hover, .favBtn:hover, .userBtn:hover{
+    padding: 10px 10px 10px 10px;
+    background-color: #424549;
+}
+
+svg{
+    fill: white;
+}
+
+.mainContent{
+    height: auto;
+    width: 100%;
+}
+
+.arrowBtn{
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    position: absolute;
+    z-index: 2;
+}
+
+#arrowNav{
+    transform: rotate(-180deg);
+    cursor: pointer;
+}
+
+#arrowNav2{
+    margin: 14rem auto;
+    padding-left: 65rem;
+    cursor: pointer;
+    position: relative;
+}
+
+.carousel{
+    height: 35rem;
+    width: 100%;
+    display: flex;
+    position: static;
+    background-color: red;
+    position: relative;
+    overflow-x: hidden;
+}
+
+.picture{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    text-align: center;
+}
+
+.picture2{
+    height: 100%;
+    width: 100%;
+    margin-left: 100%;
+}
+
+#picture-slide{
+    height: 90%;
+    width: auto;
+    margin:  1.5rem auto;
+}
+
+section{
+    width: 100%;
+    height: auto;
+}
+
