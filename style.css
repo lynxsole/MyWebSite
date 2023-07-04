@@ -1,5 +1,5 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Noto+Sans:ital,wght@0,400;0,500;1,600&family=Oswald&family=Roboto:wght@300&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Noto+Sans:ital,wght@0,400;0,500;1,600&family=Oswald&family=Roboto:wght@300&display=swap');
 
 
 * {
@@ -45,8 +45,8 @@ nav > *{
 
 .navBtn{
     margin: 1rem auto;
-    margin-left: 1rem;
-    margin-right: 1rem;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
     position: relative;
     font-size: 1rem;
     font-weight: 100;
