@@ -8,7 +8,7 @@ function slideR() {
     case s1 = 1:
         document.getElementById('carousselPosition').style.marginLeft = "-0";
         break;
-
+    
     case s1 = 2:
         document.getElementById('carousselPosition').style.marginLeft = "-2000px";
         break;
@@ -16,7 +16,11 @@ function slideR() {
     case s1 = 3:
         document.getElementById('carousselPosition').style.marginLeft = "-4000px";
     break;
-   
+
+    case s1 = 4:
+        document.getElementById('carousselPosition').style.marginLeft = "-6000px";
+    break;
+
     default:
         break;
    }

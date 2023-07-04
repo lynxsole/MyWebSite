@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -33,7 +33,7 @@
         <div class="carousel">
             <div class="arrowBtn">
                 <div>
-                    <img id="arrowNav" onclick="slideL()" src="content/picture-slide/arrowicon.svg" alt="" srcset="">
+                    <img id="arrowNav" style="transition: 0.5s; opacity: 1;" onclick="slideL()" src="content/picture-slide/arrowicon.svg" alt="" srcset="">
                 </div>
                 <div>
                     <img id="arrowNav2" onclick="slideR()" src="content/picture-slide/arrowicon.svg" alt="" srcset="">
@@ -52,12 +52,48 @@
                 <div class="picture3">
                     <img id="picture-slide" src="content/picture-slide/fp3.png" alt="">
                 </div>
+
+                <div class="picture4" style="cursor: pointer;">
+                    <img id="picture-slide" style="height: 500px; " src="content/picture-slide/fp4.png" alt="">
+                    <div class="title">
+                        <h1>
+                            THE GIRL I LIKE FORGOT HER <br> GLASSES
+                        </h1>
+                        <p class="desc">
+                            Komura a un nouveau crush à la rentrée, mais cette fille a tendance <br> à oublier ses lunettes de vue.
+                        </p>
+
+                        <div class="btn" style="z-index: 5; cursor: pointer;">
+                            <p style="padding: 11px">
+                                Regarder
+                            </p>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
 
     <section>
+        <div class="animeTitleBtn">
+            <div  id="anineBoxBtn" class="animeTitileBlock">
+                <p style="color: white; text-align: start; margin: 13px 5px; font-size: 0.9rem;">
+                    Masamune-kun's Revenge R - Première
+                </p>
+            </div>
+            <div class="animeTitileBlock">
+                <p style="color: white; text-align: start; margin: 13px 5px; font-size: .9rem;">
+                    Mushoku Tensei (Saison 2) - Première
+                </p>
+            </div>
+            <div class="animeTitileBlock">
+                
+            </div>
 
+            <div class="animeTitileBlock">
+                
+            </div>
+        </div>
     </section>
 
     <script src="index.js"></script>

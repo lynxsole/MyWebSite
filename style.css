@@ -1,24 +1,32 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,500;1,600&family=Oswald&family=Roboto&family=Vina+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Noto+Sans:ital,wght@0,400;0,500;1,600&family=Oswald&family=Roboto:wght@300&display=swap');
 
 
 * {
+    font-family: 'Lato', sans-serif;
     font-family: 'Noto Sans', sans-serif;
     font-family: 'Oswald', sans-serif;
     font-family: 'Roboto', sans-serif;
-    font-family: 'Vina Sans', cursive;
-    font-weight: 600;
+    Text-rendering: optimizeLegibility;
 }
 
 body{
     margin: 0;
     padding: 0;
+    background-color: #282b30;
 }
 
-li{
+li , a{
+    text-decoration: none;
     list-style: none;
-    position: relative;
+    position: absolute;
 }
+
+section{
+    width: 100%;
+    height: auto;
+}
+
 
 nav > *{
     top: 0;
@@ -36,17 +44,18 @@ nav > *{
 }
 
 .navBtn{
-    padding: 10px 10px 10px 10px;
+    margin: 1rem auto;
     margin-left: 1rem;
     margin-right: 1rem;
     position: relative;
-    font-size: 1.5rem;
+    font-size: 1rem;
     font-weight: 100;
+    cursor: pointer;
     color: white;
 }
 
 .navBtn:hover{
-    padding: 10px 10px 10px 10px;
+    padding: 5rem auto;
     background-color: #424549;
     position: relative;
 }
@@ -61,7 +70,7 @@ nav > *{
 }
 
 .searchBtn, .favBtn, .userBtn{
-    margin: 0.5rem;
+    margin: 0.5rem auto;
 }
 
 .searchBtn:hover, .favBtn:hover, .userBtn:hover{
@@ -69,7 +78,7 @@ nav > *{
     background-color: #424549;
 }
 
-svg{
+.svg{
     fill: white;
 }
 
@@ -94,7 +103,7 @@ svg{
 
 #arrowNav2{
     margin: 14rem auto;
-    padding-left: 65rem;
+    padding-left: 60rem;
     cursor: pointer;
     position: relative;
 }
@@ -111,7 +120,7 @@ svg{
 
 #carousselPosition{
     justify-content: space-between;
-    overflow-x: hidden;
+    overflow-y: hidden;
     display: flex;
 }
 
@@ -138,14 +147,75 @@ svg{
     margin-left: 4000px;
 }
 
+.picture4{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    position: absolute;
+    text-align: center;
+    padding-left: 19rem;
+    margin-left: 6000px;
+    color: white;
+}
+
+.title{
+    width: 100%;
+    margin-top: 8rem;
+    margin-left: -40rem;
+    position: absolute;
+    text-align: center;
+    font-size: 1.2rem;
+    font-style: normal;
+}
+
+.desc{
+    width: 100%;
+    font-style: bold;
+    font-size: 1.1rem;
+    margin: 1rem auto;
+    position: absolute;
+    text-align: center;
+}
+
+.btn{
+    height: 40px;
+    width: 150px;
+    text-align: center;
+    margin: 7rem auto;
+    background-color: black;
+}
+
 #picture-slide{
     height: 90%;
     width: auto;
     margin:  1.5rem auto;
 }
 
-section{
+.animeTitleBtn{
+    margin: 0 auto;
+    margin-top: -25rem;
+    height: 100%;
     width: 100%;
-    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    transition: 0.5s;
 }
 
+.animeTitileBlock:hover{
+    transition: 0.5s;
+    background-color: #3a3a3a;
+}
+
+.animeTitileBlock{
+    cursor: pointer;
+    margin: 0 1rem;
+    height: 60px;
+    width: 185px;
+    background-color: #424549;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Roboto', sans-serif
+}
