@@ -33,20 +33,24 @@
         <div class="carousel">
             <div class="arrowBtn">
                 <div>
-                    <img id="arrowNav" src="content/picture-slide/arrowicon.svg" alt="" srcset="">
+                    <img id="arrowNav" onclick="slideL()" src="content/picture-slide/arrowicon.svg" alt="" srcset="">
                 </div>
                 <div>
-                    <img id="arrowNav2" src="content/picture-slide/arrowicon.svg" alt="" srcset="">
+                    <img id="arrowNav2" onclick="slideR()" src="content/picture-slide/arrowicon.svg" alt="" srcset="">
                 </div>
             </div>
             
-            <div>
+            <div id="carousselPosition" style=" transition: 0.5s;">
                 <div class="picture">
                     <img id="picture-slide" src="content/picture-slide/fp1.png" alt="">
                 </div>
     
                 <div class="picture2">
                     <img id="picture-slide" src="content/picture-slide/fp2.png" alt="">
+                </div>
+
+                <div class="picture3">
+                    <img id="picture-slide" src="content/picture-slide/fp3.png" alt="">
                 </div>
             </div>
         </div>

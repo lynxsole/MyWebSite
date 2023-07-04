@@ -109,6 +109,12 @@ svg{
     overflow-x: hidden;
 }
 
+#carousselPosition{
+    justify-content: space-between;
+    overflow-x: hidden;
+    display: flex;
+}
+
 .picture{
     height: 100%;
     width: 100%;
@@ -119,7 +125,17 @@ svg{
 .picture2{
     height: 100%;
     width: 100%;
-    margin-left: 150rem;
+    position: absolute;
+    text-align: center;
+    margin-left: 2000px;
+}
+
+.picture3{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    text-align: center;
+    margin-left: 4000px;
 }
 
 #picture-slide{
