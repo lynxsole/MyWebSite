@@ -57,6 +57,8 @@ nav > *{
 .navBtn:hover{
     padding: 5rem auto;
     background-color: #424549;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
     position: relative;
 }
 

@@ -1,4 +1,4 @@
-let s1 = 0;
+let s1 = 1;
 
 function slideR() {
     s1 += 1;
@@ -6,9 +6,9 @@ function slideR() {
 
    switch (s1) {
     case s1 = 1:
-        document.getElementById('carousselPosition').style.marginLeft = "-0";
+        document.getElementById('carousselPosition').style.marginLeft = "0";
         break;
-    
+
     case s1 = 2:
         document.getElementById('carousselPosition').style.marginLeft = "-2000px";
         break;
@@ -32,7 +32,7 @@ function slideL() {
 
     switch (s1) {
         case s1 = 1:
-            document.getElementById('carousselPosition').style.marginLeft = "-0";
+            document.getElementById('carousselPosition').style.marginLeft = "0";
             break;
     
         case s1 = 2:
