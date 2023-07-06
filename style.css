@@ -78,6 +78,7 @@ nav > *{
 .searchBtn:hover, .favBtn:hover, .userBtn:hover{
     padding: 10px 10px 10px 10px;
     background-color: #424549;
+    cursor: pointer;
 }
 
 .svg{
